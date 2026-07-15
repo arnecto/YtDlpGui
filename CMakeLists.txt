@@ -9,7 +9,7 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
 # Шлях до Qt (якщо CMake не знаходить сам — розкоментуй і встав свій шлях)
-set(CMAKE_PREFIX_PATH "D:/Qt/6.11.1/mingw_64")
+# set(CMAKE_PREFIX_PATH "D:/Qt/6.11.1/mingw_64")
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets Core Gui)
 
