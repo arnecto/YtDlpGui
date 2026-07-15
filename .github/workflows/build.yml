@@ -49,7 +49,7 @@ jobs:
           $exe = Get-ChildItem -Path build -Filter "YtDlpGui.exe" -Recurse | Select-Object -First 1
           $dest = "dist"
           New-Item -ItemType Directory -Path $dest -Force
-          Copy-Item -Path $exe.DirectoryName\* -Destination $dest -Recurse -Force
+          Copy-Item -Path "$($exe.DirectoryName)\*" -Destination $dest -Recurse -Force
           Compress-Archive -Path "$dest\*" -DestinationPath "YtDlpGui-windows.zip"
 
       - name: Upload build artifact
