@@ -1,0 +1,5 @@
+D:/YtDlpGui/build/CMakeFiles/YtDlpGui.dir
+D:/YtDlpGui/build/CMakeFiles/edit_cache.dir
+D:/YtDlpGui/build/CMakeFiles/rebuild_cache.dir
+D:/YtDlpGui/build/CMakeFiles/YtDlpGui_autogen_timestamp_deps.dir
+D:/YtDlpGui/build/CMakeFiles/YtDlpGui_autogen.dir

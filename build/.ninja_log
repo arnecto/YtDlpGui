@@ -1,0 +1,9 @@
+# ninja log v6
+47	5565	8057364166965092	YtDlpGui_autogen/timestamp	765e7beeaa642d40
+47	5565	8057364166965092	YtDlpGui_autogen/mocs_compilation.cpp	765e7beeaa642d40
+47	5565	8057364166965092	D:/YtDlpGui/build/YtDlpGui_autogen/timestamp	765e7beeaa642d40
+47	5565	8057364166965092	D:/YtDlpGui/build/YtDlpGui_autogen/mocs_compilation.cpp	765e7beeaa642d40
+5568	12314	8057364168065461	CMakeFiles/YtDlpGui.dir/YtDlpGui_autogen/mocs_compilation.cpp.obj	b390e1bde0352d35
+5585	12303	8057364168245573	CMakeFiles/YtDlpGui.dir/src/main.cpp.obj	1eea5b638b197088
+15652	18761	8057364268907231	YtDlpGui.exe	efaec5912ff857f6
+5605	15652	8057364168440022	CMakeFiles/YtDlpGui.dir/src/MainWindow.cpp.obj	2886ef65beac495
