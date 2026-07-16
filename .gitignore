@@ -24,8 +24,8 @@ ui_*.h
 qrc_*.cpp
 
 # VS Code
-.vscode/
-!.vscode/settings.json.example
+.vscode/*
+!.vscode/settings.json
 
 # Windows
 Thumbs.db

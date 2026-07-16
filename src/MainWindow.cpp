@@ -67,10 +67,14 @@ void MainWindow::buildUi()
     auto *central = new QWidget(this);
     setCentralWidget(central);
     auto *mainLayout = new QVBoxLayout(central);
+    mainLayout->setContentsMargins(20, 20, 20, 20);
+    mainLayout->setSpacing(16);
 
     // --- Група: шляхи до інструментів ---
     auto *pathsBox = new QGroupBox("Інструменти", central);
     auto *pathsLayout = new QFormLayout(pathsBox);
+    pathsLayout->setSpacing(10);
+    pathsLayout->setContentsMargins(14, 16, 14, 14);
 
     auto *ytDlpRow = new QWidget(pathsBox);
     auto *ytDlpRowLayout = new QHBoxLayout(ytDlpRow);
@@ -99,6 +103,8 @@ void MainWindow::buildUi()
     // --- Група: завантаження ---
     auto *downloadBox = new QGroupBox("Завантаження", central);
     auto *downloadLayout = new QFormLayout(downloadBox);
+    downloadLayout->setSpacing(10);
+    downloadLayout->setContentsMargins(14, 16, 14, 14);
 
     m_urlEdit = new QLineEdit(downloadBox);
     m_urlEdit->setPlaceholderText("https://www.youtube.com/watch?v=...");
@@ -174,9 +180,11 @@ void MainWindow::buildUi()
     auto *buttonsLayout = new QHBoxLayout(buttonsRow);
     buttonsLayout->setContentsMargins(0, 0, 0, 0);
     m_downloadButton = new QPushButton("Завантажити", buttonsRow);
-    m_downloadButton->setMinimumHeight(36);
+    m_downloadButton->setObjectName("downloadButton");
+    m_downloadButton->setMinimumHeight(40);
     m_cancelButton = new QPushButton("Скасувати", buttonsRow);
-    m_cancelButton->setMinimumHeight(36);
+    m_cancelButton->setObjectName("cancelButton");
+    m_cancelButton->setMinimumHeight(40);
     m_cancelButton->setEnabled(false);
     buttonsLayout->addWidget(m_downloadButton);
     buttonsLayout->addWidget(m_cancelButton);
